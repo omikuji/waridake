@@ -1,6 +1,6 @@
 # Waridake(割り竹)
 
-[English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Suomi](README.fi.md) · [Français](README.fr.md) · [עברית](README.he.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · **日本語** · [한국어](README.ko.md) · [Norsk](README.nb.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt-BR.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
+[English](../README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Suomi](README.fi.md) · [Français](README.fr.md) · [עברית](README.he.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · **日本語** · [한국어](README.ko.md) · [Norsk](README.nb.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt-BR.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
 
 画面を割るだけの macOS ウィンドウスナップアプリ。
 
@@ -12,7 +12,7 @@
 
 ホットキーの格子なし、ウィンドウ履歴なし、サブスクなし。メニューバー常駐のみ。
 
-> 正典は英語版の [README.md](README.md)。この訳が遅れている場合は英語版が優先。
+> 正典は英語版の [README.md](../README.md)。この訳が遅れている場合は英語版が優先。
 
 ## インストール
 
@@ -157,6 +157,10 @@ make install SIGN_IDENTITY="Waridake Dev"
 言語を足すには `Resources/en.lproj/Localizable.strings` を
 `Resources/<言語>.lproj/` にコピーして、各行の右辺を訳してビルドし直すだけ。
 訳が無いものは英語にフォールバックする。
+
+この README も翻訳されている。英語以外は `translations/` にあり、
+先頭のリンクから辿れる。正典は英語版で、言語を足したら
+`python3 Tools/sync-readme-nav.py` を実行するとリンクが揃う。
 
 ## 動作の仕組み
 

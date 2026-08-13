@@ -1,6 +1,6 @@
 # Waridake
 
-[English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Español](README.es.md) · **Suomi** · [Français](README.fr.md) · [עברית](README.he.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Norsk](README.nb.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt-BR.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
+[English](../README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Español](README.es.md) · **Suomi** · [Français](README.fr.md) · [עברית](README.he.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Norsk](README.nb.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt-BR.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
 
 macOS-ohjelma, joka asettelee ikkunoita eikä tee muuta kuin jakaa näytön.
 
@@ -14,7 +14,7 @@ macOS-ohjelma, joka asettelee ikkunoita eikä tee muuta kuin jakaa näytön.
 
 Ei näppäinoikoteiden ruudukoita, ei ikkunahistoriaa, ei tilauksia. Se asuu valikkorivillä.
 
-> Englanninkielinen [README.md](README.md) on määräävä. Jos tämä käännös laahaa jäljessä,
+> Englanninkielinen [README.md](../README.md) on määräävä. Jos tämä käännös laahaa jäljessä,
 > englanninkielinen pätee.
 
 ## Asennus

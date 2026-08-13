@@ -1,6 +1,6 @@
 # Waridake
 
-**English** · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Suomi](README.fi.md) · [Français](README.fr.md) · [עברית](README.he.md) · [हिन्दी](README.hi.md) · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Norsk](README.nb.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt-BR.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
+**English** · [العربية](translations/README.ar.md) · [Čeština](translations/README.cs.md) · [Dansk](translations/README.da.md) · [Deutsch](translations/README.de.md) · [Español](translations/README.es.md) · [Suomi](translations/README.fi.md) · [Français](translations/README.fr.md) · [עברית](translations/README.he.md) · [हिन्दी](translations/README.hi.md) · [Bahasa Indonesia](translations/README.id.md) · [Italiano](translations/README.it.md) · [日本語](translations/README.ja.md) · [한국어](translations/README.ko.md) · [Norsk](translations/README.nb.md) · [Nederlands](translations/README.nl.md) · [Polski](translations/README.pl.md) · [Português](translations/README.pt-BR.md) · [Русский](translations/README.ru.md) · [Svenska](translations/README.sv.md) · [ไทย](translations/README.th.md) · [Türkçe](translations/README.tr.md) · [Українська](translations/README.uk.md) · [Tiếng Việt](translations/README.vi.md) · [简体中文](translations/README.zh-Hans.md) · [繁體中文](translations/README.zh-Hant.md)
 
 A macOS window snapper that only splits the screen.
 
@@ -166,6 +166,10 @@ welcome kind of pull request. Adding a language means copying
 `Resources/en.lproj/Localizable.strings` to `Resources/<language>.lproj/`,
 translating the right-hand side of each line, and rebuilding. Anything left
 untranslated falls back to English.
+
+This README is translated too — the other languages live in `translations/`,
+listed at the top of this file. English is the canonical version; run
+`python3 Tools/sync-readme-nav.py` after adding one to refresh those links.
 
 ## How it works
 

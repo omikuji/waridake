@@ -1,6 +1,6 @@
 # Waridake
 
-[English](README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Suomi](README.fi.md) · [Français](README.fr.md) · [עברית](README.he.md) · **हिन्दी** · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Norsk](README.nb.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt-BR.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
+[English](../README.md) · [العربية](README.ar.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Suomi](README.fi.md) · [Français](README.fr.md) · [עברית](README.he.md) · **हिन्दी** · [Bahasa Indonesia](README.id.md) · [Italiano](README.it.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Norsk](README.nb.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt-BR.md) · [Русский](README.ru.md) · [Svenska](README.sv.md) · [ไทย](README.th.md) · [Türkçe](README.tr.md) · [Українська](README.uk.md) · [Tiếng Việt](README.vi.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
 
 macOS के लिए एक विंडो-व्यवस्थापक, जो सिर्फ़ स्क्रीन बाँटने का काम करता है।
 
@@ -14,7 +14,7 @@ macOS के लिए एक विंडो-व्यवस्थापक, �
 
 न शॉर्टकट की जालियाँ, न विंडो का इतिहास, न कोई सदस्यता। यह मेन्यू बार में रहता है।
 
-> मूल दस्तावेज़ अंग्रेज़ी वाला [README.md](README.md) है। यदि यह अनुवाद पीछे रह जाए, तो
+> मूल दस्तावेज़ अंग्रेज़ी वाला [README.md](../README.md) है। यदि यह अनुवाद पीछे रह जाए, तो
 > अंग्रेज़ी वाला ही मान्य है।
 
 ## संस्थापन
