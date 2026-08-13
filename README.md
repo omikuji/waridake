@@ -1,5 +1,7 @@
 # Waridake
 
+**English** · [日本語](README.ja.md)
+
 A macOS window snapper that only splits the screen.
 
 *Waridake* (割り竹) means "split bamboo" — one clean cut, nothing else.
@@ -151,12 +153,19 @@ Config files without `displays` still load, and apply everywhere.
 
 ## Languages
 
-English and Japanese, picked automatically from your macOS language settings —
-there is nothing to configure.
+26 languages, picked automatically from your macOS language settings — there is
+nothing to configure:
 
-Adding a language means copying `Resources/en.lproj/Localizable.strings` to
-`Resources/<language>.lproj/`, translating the right-hand side of each line, and
-rebuilding. Untranslated keys fall back to English. Pull requests welcome.
+Arabic, Chinese (Simplified and Traditional), Czech, Danish, Dutch, English,
+Finnish, French, German, Hebrew, Hindi, Indonesian, Italian, Japanese, Korean,
+Norwegian, Polish, Portuguese (Brazil), Russian, Spanish, Swedish, Thai,
+Turkish, Ukrainian, Vietnamese.
+
+Most of these were not written by native speakers, so corrections are the most
+welcome kind of pull request. Adding a language means copying
+`Resources/en.lproj/Localizable.strings` to `Resources/<language>.lproj/`,
+translating the right-hand side of each line, and rebuilding. Anything left
+untranslated falls back to English.
 
 ## How it works
 
