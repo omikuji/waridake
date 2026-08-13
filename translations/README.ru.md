@@ -186,6 +186,12 @@ Waridake бесплатна и такой останется. Если она э
 [GitHub Sponsors](https://github.com/sponsors/omikuji) будет очень кстати — это
 единственный источник средств проекта.
 
+Вопросы, неполадки и идеи приветствуются:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Форма обратной связи](https://omikuji.dev/contact/)
+- [Сообщить на GitHub](https://github.com/omikuji/waridake/issues)
+
 ## Лицензия
 
 Лицензия MIT.

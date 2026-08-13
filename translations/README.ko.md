@@ -175,6 +175,12 @@ Waridake는 무료이며 앞으로도 무료입니다. 시간을 아껴 주었�
 [GitHub Sponsors](https://github.com/sponsors/omikuji)를 통한 후원이 큰 힘이 됩니다.
 이 프로젝트의 유일한 재원입니다.
 
+질문·문제·아이디어 모두 환영합니다:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [문의 양식](https://omikuji.dev/contact/)
+- [GitHub에 알리기](https://github.com/omikuji/waridake/issues)
+
 ## 라이선스
 
 MIT 라이선스.

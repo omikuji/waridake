@@ -180,6 +180,12 @@ Waridake मुफ़्त है और रहेगा। अगर यह �
 [GitHub Sponsors](https://github.com/sponsors/omikuji) के ज़रिए सहयोग सराहा जाएगा — परियोजना का यही
 अकेला आर्थिक सहारा है।
 
+सवाल, दिक्कत या सुझाव — सब स्वागत है:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [संपर्क फ़ॉर्म](https://omikuji.dev/contact/)
+- [GitHub पर बताएँ](https://github.com/omikuji/waridake/issues)
+
 ## लाइसेंस
 
 MIT लाइसेंस।

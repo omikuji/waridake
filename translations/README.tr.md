@@ -182,6 +182,12 @@ Waridake ücretsizdir ve öyle kalacak. Size zaman kazandırıyorsa
 [GitHub Sponsors](https://github.com/sponsors/omikuji) üzerinden destek olmanız sevindirir —
 projenin tek gelir kaynağı budur.
 
+Soru, sorun ve fikirler beklerim:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [İletişim formu](https://omikuji.dev/contact/)
+- [GitHub’da bildir](https://github.com/omikuji/waridake/issues)
+
 ## Lisans
 
 MIT Lisansı.

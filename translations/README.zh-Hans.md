@@ -167,6 +167,12 @@ make install SIGN_IDENTITY="Waridake Dev"
 Waridake 是免费的,而且会一直免费。如果它替你省下了时间,欢迎通过
 [GitHub Sponsors](https://github.com/sponsors/omikuji) 支持——这是本项目唯一的资金来源。
 
+有疑问、故障或想法都欢迎提出:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [联系表单](https://omikuji.dev/contact/)
+- [在 GitHub 上反馈](https://github.com/omikuji/waridake/issues)
+
 ## 许可
 
 MIT 许可证。

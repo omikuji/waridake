@@ -184,6 +184,12 @@ på varje rad och bygga om. Det som lämnas oöversatt faller tillbaka på engel
 Waridake är gratis och kommer att förbli det. Om den sparar dig tid uppskattas stöd via
 [GitHub Sponsors](https://github.com/sponsors/omikuji) — det är projektets enda finansiering.
 
+Frågor, problem och idéer är välkomna:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Kontaktformulär](https://omikuji.dev/contact/)
+- [Rapportera på GitHub](https://github.com/omikuji/waridake/issues)
+
 ## Licens
 
 MIT-licens.

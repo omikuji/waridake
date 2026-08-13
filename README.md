@@ -202,6 +202,12 @@ Waridake is free and always will be. If it saves you time, sponsoring the work
 through [GitHub Sponsors](https://github.com/sponsors/omikuji) is appreciated
 and is the only way the project is funded.
 
+Questions, problems and ideas are all welcome:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Contact form](https://omikuji.dev/contact/)
+- [Report an issue on GitHub](https://github.com/omikuji/waridake/issues)
+
 ## License
 
 MIT License.

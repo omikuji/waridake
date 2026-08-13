@@ -179,6 +179,12 @@ Waridake miễn phí và sẽ luôn như vậy. Nếu nó giúp bạn tiết ki�
 [GitHub Sponsors](https://github.com/sponsors/omikuji) rất đáng quý — đó là nguồn tài trợ duy
 nhất của dự án.
 
+Mọi câu hỏi, trục trặc và ý tưởng đều được hoan nghênh:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Biểu mẫu liên hệ](https://omikuji.dev/contact/)
+- [Báo lỗi trên GitHub](https://github.com/omikuji/waridake/issues)
+
 ## Giấy phép
 
 Giấy phép MIT.

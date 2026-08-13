@@ -99,3 +99,7 @@
 "Make Default" = "既定にする";
 "Use the layout of “%@” as the default?" = "「%@」の割り方を既定にしますか?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "自分のレイアウトを持たない画面は既定から始まります。いまの既定は編集履歴に残ります。";
+"Need help?" = "お困りですか?";
+"Message me on X (@omikuji_man)" = "X で連絡する (@omikuji_man)";
+"Contact form" = "お問い合わせフォーム";
+"Report an issue on GitHub" = "GitHub で報告する";

@@ -181,6 +181,12 @@ Waridake je zdarma a zůstane. Pokud vám šetří čas, podpora přes
 [GitHub Sponsors](https://github.com/sponsors/omikuji) potěší — je to jediné financování
 projektu.
 
+Dotazy, problémy i nápady vítám:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Kontaktní formulář](https://omikuji.dev/contact/)
+- [Nahlásit na GitHubu](https://github.com/omikuji/waridake/issues)
+
 ## Licence
 
 Licence MIT.

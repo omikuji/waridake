@@ -98,3 +98,7 @@
 "Make Default" = "Đặt làm mặc định";
 "Use the layout of “%@” as the default?" = "Dùng bố cục của “%@” làm mặc định?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Màn hình chưa có bố cục riêng sẽ bắt đầu từ mặc định. Mặc định hiện tại vẫn nằm trong lịch sử.";
+"Need help?" = "Cần trợ giúp?";
+"Message me on X (@omikuji_man)" = "Nhắn cho tôi trên X (@omikuji_man)";
+"Contact form" = "Biểu mẫu liên hệ";
+"Report an issue on GitHub" = "Báo lỗi trên GitHub";

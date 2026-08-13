@@ -98,3 +98,7 @@
 "Make Default" = "Gör till standard";
 "Use the layout of “%@” as the default?" = "Använda layouten från ”%@” som standard?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Skärmar utan egen layout utgår från standarden. Den nuvarande standarden finns kvar i historiken.";
+"Need help?" = "Behöver du hjälp?";
+"Message me on X (@omikuji_man)" = "Skriv till mig på X (@omikuji_man)";
+"Contact form" = "Kontaktformulär";
+"Report an issue on GitHub" = "Rapportera på GitHub";

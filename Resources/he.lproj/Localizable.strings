@@ -98,3 +98,7 @@
 "Make Default" = "הפוך לברירת מחדל";
 "Use the layout of “%@” as the default?" = "להשתמש בפריסה של „%@” כברירת מחדל?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "מסכים בלי פריסה משלהם מתחילים מברירת המחדל. ברירת המחדל הנוכחית נשמרת בהיסטוריה.";
+"Need help?" = "צריך עזרה?";
+"Message me on X (@omikuji_man)" = "כתבו לי ב‑X ‏(@omikuji_man)";
+"Contact form" = "טופס יצירת קשר";
+"Report an issue on GitHub" = "דיווח ב‑GitHub";

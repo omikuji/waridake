@@ -98,3 +98,7 @@
 "Make Default" = "Ustaw domyślny";
 "Use the layout of “%@” as the default?" = "Ustawić układ „%@” jako domyślny?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Ekrany bez własnego układu zaczynają od domyślnego. Obecny domyślny zostaje w historii.";
+"Need help?" = "Potrzebujesz pomocy?";
+"Message me on X (@omikuji_man)" = "Napisz do mnie na X (@omikuji_man)";
+"Contact form" = "Formularz kontaktowy";
+"Report an issue on GitHub" = "Zgłoś na GitHubie";

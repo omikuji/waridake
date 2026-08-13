@@ -181,6 +181,12 @@ Waridake gratis dan akan tetap begitu. Kalau ia menghemat waktu Anda, dukungan l
 [GitHub Sponsors](https://github.com/sponsors/omikuji) sangat berarti — itulah satu-satunya
 pendanaan proyek ini.
 
+Pertanyaan, masalah, dan ide sangat diterima:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Formulir kontak](https://omikuji.dev/contact/)
+- [Laporkan di GitHub](https://github.com/omikuji/waridake/issues)
+
 ## Lisensi
 
 Lisensi MIT.

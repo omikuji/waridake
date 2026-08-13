@@ -98,3 +98,7 @@
 "Make Default" = "Öntanımlı yap";
 "Use the layout of “%@” as the default?" = "“%@” yerleşimi öntanımlı olsun mu?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Kendi yerleşimi olmayan ekranlar öntanımlıdan başlar. Şimdiki öntanımlı geçmişte kalır.";
+"Need help?" = "Yardım gerekiyor mu?";
+"Message me on X (@omikuji_man)" = "X’ten yaz (@omikuji_man)";
+"Contact form" = "İletişim formu";
+"Report an issue on GitHub" = "GitHub’da bildir";

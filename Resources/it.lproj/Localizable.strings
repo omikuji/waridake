@@ -98,3 +98,7 @@
 "Make Default" = "Predefinito";
 "Use the layout of “%@” as the default?" = "Usare il layout di «%@» come predefinito?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Gli schermi senza un layout proprio partono dal predefinito. Quello attuale resta nella cronologia.";
+"Need help?" = "Serve aiuto?";
+"Message me on X (@omikuji_man)" = "Scrivimi su X (@omikuji_man)";
+"Contact form" = "Modulo di contatto";
+"Report an issue on GitHub" = "Segnala su GitHub";

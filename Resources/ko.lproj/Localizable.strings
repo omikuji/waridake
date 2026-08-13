@@ -98,3 +98,7 @@
 "Make Default" = "기본값으로";
 "Use the layout of “%@” as the default?" = "‘%@’의 레이아웃을 기본값으로 할까요?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "자기 레이아웃이 없는 디스플레이는 기본값에서 시작합니다. 지금의 기본값은 편집 기록에 남습니다.";
+"Need help?" = "도움이 필요하세요?";
+"Message me on X (@omikuji_man)" = "X로 연락하기 (@omikuji_man)";
+"Contact form" = "문의 양식";
+"Report an issue on GitHub" = "GitHub에 알리기";

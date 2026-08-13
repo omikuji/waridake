@@ -98,3 +98,7 @@
 "Make Default" = "Por omisión";
 "Use the layout of “%@” as the default?" = "¿Usar la disposición de «%@» por omisión?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Las pantallas sin disposición propia parten de la de omisión. La actual queda en el historial.";
+"Need help?" = "¿Necesitas ayuda?";
+"Message me on X (@omikuji_man)" = "Escríbeme por X (@omikuji_man)";
+"Contact form" = "Formulario de contacto";
+"Report an issue on GitHub" = "Informar en GitHub";

@@ -98,3 +98,7 @@
 "Make Default" = "Als Standard";
 "Use the layout of “%@” as the default?" = "Das Layout von „%@“ als Standard verwenden?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Displays ohne eigenes Layout starten mit dem Standard. Der bisherige Standard bleibt im Verlauf.";
+"Need help?" = "Brauchst du Hilfe?";
+"Message me on X (@omikuji_man)" = "Schreib mir auf X (@omikuji_man)";
+"Contact form" = "Kontaktformular";
+"Report an issue on GitHub" = "Auf GitHub melden";

@@ -98,3 +98,7 @@
 "Make Default" = "设为默认";
 "Use the layout of “%@” as the default?" = "把“%@”的布局设为默认吗?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "没有自己布局的显示器会从默认开始。当前的默认会留在编辑历史中。";
+"Need help?" = "需要帮助吗?";
+"Message me on X (@omikuji_man)" = "在 X 上联系我 (@omikuji_man)";
+"Contact form" = "联系表单";
+"Report an issue on GitHub" = "在 GitHub 上反馈";

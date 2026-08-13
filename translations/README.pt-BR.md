@@ -185,6 +185,12 @@ O Waridake é gratuito e vai continuar assim. Se ele te poupa tempo, apoiar pelo
 [GitHub Sponsors](https://github.com/sponsors/omikuji) é bem-vindo — é o único
 financiamento do projeto.
 
+Dúvidas, problemas e ideias são bem-vindos:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Formulário de contato](https://omikuji.dev/contact/)
+- [Relatar no GitHub](https://github.com/omikuji/waridake/issues)
+
 ## Licença
 
 Licença MIT.

@@ -98,3 +98,7 @@
 "Make Default" = "اجعله الافتراضي";
 "Use the layout of “%@” as the default?" = "أتريد جعل تخطيط «%@» هو الافتراضي؟";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "الشاشات التي لا تخطيط خاص لها تبدأ من الافتراضي. ويبقى الافتراضي الحالي في سجل التحرير.";
+"Need help?" = "أتحتاج مساعدة؟";
+"Message me on X (@omikuji_man)" = "راسلني على X ‏(@omikuji_man)";
+"Contact form" = "نموذج التواصل";
+"Report an issue on GitHub" = "أبلغ عبر GitHub";

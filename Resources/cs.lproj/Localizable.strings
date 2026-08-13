@@ -98,3 +98,7 @@
 "Make Default" = "Nastavit výchozí";
 "Use the layout of “%@” as the default?" = "Použít rozvržení displeje „%@“ jako výchozí?";
 "Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Displeje bez vlastního rozvržení vycházejí z výchozího. Dosavadní výchozí zůstane v historii.";
+"Need help?" = "Potřebujete pomoc?";
+"Message me on X (@omikuji_man)" = "Napište mi na X (@omikuji_man)";
+"Contact form" = "Kontaktní formulář";
+"Report an issue on GitHub" = "Nahlásit na GitHubu";

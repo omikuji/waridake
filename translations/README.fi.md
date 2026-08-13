@@ -182,6 +182,12 @@ Waridake on ilmainen ja pysyy sellaisena. Jos se säästää aikaasi, tuki
 [GitHub Sponsorsin](https://github.com/sponsors/omikuji) kautta on arvossaan — se on hankkeen
 ainoa rahoitus.
 
+Kysymykset, ongelmat ja ideat ovat tervetulleita:
+
+- [X (@omikuji_man)](https://x.com/omikuji_man)
+- [Yhteydenottolomake](https://omikuji.dev/contact/)
+- [Ilmoita GitHubissa](https://github.com/omikuji/waridake/issues)
+
 ## Lisenssi
 
 MIT-lisenssi.

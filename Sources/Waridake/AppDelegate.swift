@@ -133,6 +133,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         editItem.target = self
         menu.addItem(editItem)
 
+        menu.addItem(.separator())
+
+        let helpItem = NSMenuItem(title: L("Need help?"), action: nil, keyEquivalent: "")
+        let helpMenu = NSMenu()
+        addLink(helpMenu, L("Message me on X (@omikuji_man)"), "https://x.com/omikuji_man")
+        addLink(helpMenu, L("Contact form"), "https://omikuji.dev/contact/")
+        addLink(helpMenu, L("Report an issue on GitHub"),
+                "https://github.com/omikuji/waridake/issues")
+        helpItem.submenu = helpMenu
+        menu.addItem(helpItem)
+
         axSeparator = .separator()
         menu.addItem(axSeparator)
         axItem = NSMenuItem(
@@ -148,6 +159,20 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(quitItem)
 
         statusItem.menu = menu
+    }
+
+    /// Menu entries that only open a link
+    private func addLink(_ menu: NSMenu, _ title: String, _ address: String) {
+        let item = NSMenuItem(title: title, action: #selector(openLink(_:)), keyEquivalent: "")
+        item.target = self
+        item.representedObject = address
+        menu.addItem(item)
+    }
+
+    @objc private func openLink(_ sender: NSMenuItem) {
+        guard let address = sender.representedObject as? String,
+              let url = URL(string: address) else { return }
+        NSWorkspace.shared.open(url)
     }
 
     @objc private func toggleEnabled(_ sender: NSMenuItem) {
