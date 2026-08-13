@@ -95,9 +95,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     private func setupStatusItem() {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
-        statusItem.button?.image = NSImage(
-            systemSymbolName: "rectangle.split.3x1",
-            accessibilityDescription: "Waridake")
+        statusItem.button?.image = MenuBarIcon.katana()
+        statusItem.button?.image?.accessibilityDescription = "Waridake"
 
         let menu = NSMenu()
 
