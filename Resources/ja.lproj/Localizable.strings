@@ -96,3 +96,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ の値の型が違います(数値で書いてください)";
 "%@ has no value" = "%@ の値がありません";
 "the file" = "全体";
+"Make Default" = "既定にする";
+"Use the layout of “%@” as the default?" = "「%@」の割り方を既定にしますか?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "自分のレイアウトを持たない画面は既定から始まります。いまの既定は編集履歴に残ります。";

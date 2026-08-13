@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ содержит значение неверного типа (укажите число)";
 "%@ has no value" = "у %@ нет значения";
 "the file" = "файл целиком";
+"Make Default" = "Сделать основным";
+"Use the layout of “%@” as the default?" = "Сделать макет «%@» основным?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Мониторы без собственного макета берут основной. Нынешний основной останется в истории.";

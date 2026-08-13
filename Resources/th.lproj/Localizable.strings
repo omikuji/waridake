@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ มีชนิดของค่าไม่ถูกต้อง (โปรดใส่ตัวเลข)";
 "%@ has no value" = "%@ ไม่มีค่า";
 "the file" = "ทั้งไฟล์";
+"Make Default" = "ตั้งเป็นค่าเริ่มต้น";
+"Use the layout of “%@” as the default?" = "ตั้งเลย์เอาต์ของ “%@” เป็นค่าเริ่มต้นไหม";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "จอที่ยังไม่มีเลย์เอาต์ของตัวเองจะเริ่มจากค่าเริ่มต้น ส่วนค่าเริ่มต้นปัจจุบันจะถูกเก็บไว้ในประวัติ";

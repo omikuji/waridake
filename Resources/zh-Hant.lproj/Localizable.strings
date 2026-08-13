@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ 的值類型不對(請填寫數字)";
 "%@ has no value" = "%@ 沒有值";
 "the file" = "整個檔案";
+"Make Default" = "設為預設";
+"Use the layout of “%@” as the default?" = "要把「%@」的佈局設為預設嗎?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "沒有自己佈局的顯示器會從預設開始。目前的預設會留在編輯紀錄中。";

@@ -96,3 +96,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ has the wrong kind of value (write a number)";
 "%@ has no value" = "%@ has no value";
 "the file" = "the file";
+"Make Default" = "Make Default";
+"Use the layout of “%@” as the default?" = "Use the layout of “%@” as the default?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Displays without a layout of their own start from the default. The current default is kept in the edit history.";

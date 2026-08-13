@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ berisi jenis nilai yang salah (tulis angka)";
 "%@ has no value" = "%@ tidak punya nilai";
 "the file" = "seluruh berkas";
+"Make Default" = "Jadikan bawaan";
+"Use the layout of “%@” as the default?" = "Jadikan tata letak “%@” sebagai bawaan?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Layar tanpa tata letak sendiri mulai dari bawaan. Bawaan yang sekarang tetap ada di riwayat.";

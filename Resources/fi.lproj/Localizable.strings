@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ sisältää väärän tyyppisen arvon (kirjoita luku)";
 "%@ has no value" = "%@ on ilman arvoa";
 "the file" = "koko tiedosto";
+"Make Default" = "Aseta oletukseksi";
+"Use the layout of “%@” as the default?" = "Otetaanko näytön ”%@” asettelu oletukseksi?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Näytöt ilman omaa asettelua lähtevät oletuksesta. Nykyinen oletus jää historiaan.";

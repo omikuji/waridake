@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ har en forkert værditype (skriv et tal)";
 "%@ has no value" = "%@ har ingen værdi";
 "the file" = "hele filen";
+"Make Default" = "Gør til standard";
+"Use the layout of “%@” as the default?" = "Vil du bruge layoutet fra “%@” som standard?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Skærme uden eget layout tager udgangspunkt i standarden. Den nuværende standard bliver i historikken.";

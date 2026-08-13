@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@의 값 유형이 잘못되었습니다(숫자로 입력하십시오)";
 "%@ has no value" = "%@에 값이 없습니다";
 "the file" = "파일 전체";
+"Make Default" = "기본값으로";
+"Use the layout of “%@” as the default?" = "‘%@’의 레이아웃을 기본값으로 할까요?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "자기 레이아웃이 없는 디스플레이는 기본값에서 시작합니다. 지금의 기본값은 편집 기록에 남습니다.";

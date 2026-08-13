@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ yanlış türde bir değer içeriyor (sayı yazın)";
 "%@ has no value" = "%@ değeri yok";
 "the file" = "dosyanın tamamı";
+"Make Default" = "Öntanımlı yap";
+"Use the layout of “%@” as the default?" = "“%@” yerleşimi öntanımlı olsun mu?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Kendi yerleşimi olmayan ekranlar öntanımlıdan başlar. Şimdiki öntanımlı geçmişte kalır.";

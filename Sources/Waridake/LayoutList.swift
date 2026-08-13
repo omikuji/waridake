@@ -12,12 +12,12 @@ final class LayoutList: NSWindowController {
         self.store = store
         self.onChange = onChange
         let window = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 760, height: 470),
+            contentRect: NSRect(x: 0, y: 0, width: 940, height: 470),
             styleMask: [.titled, .closable, .miniaturizable, .resizable],
             backing: .buffered, defer: false)
         window.title = L("Layouts")
         window.isReleasedWhenClosed = false
-        window.minSize = NSSize(width: 760, height: 320)
+        window.minSize = NSSize(width: 940, height: 320)
         window.setFrameAutosaveName("LayoutList")
         window.center()
         super.init(window: window)
@@ -64,8 +64,7 @@ final class LayoutList: NSWindowController {
             title: L("Default"),
             subtitle: "—",
             detail: describe(store.set.base),
-            note: L("for unlisted displays"),
-            action: nil))
+            note: L("for unlisted displays")))
 
         let keys = store.set.displays.keys.sorted { first, second in
             let a = store.set.displays[first]?.usedAt ?? .distantPast
@@ -83,9 +82,14 @@ final class LayoutList: NSWindowController {
                 subtitle: isConnected ? L("Connected") : L("Not connected"),
                 detail: describe(entry.layout),
                 note: entry.usedAt.map(Self.display.string(from:)) ?? L("no record"),
-                action: (L("Delete"), { [weak self] in
-                    self?.confirmDelete(key: key, name: entry.name)
-                })))
+                actions: [
+                    (L("Make Default"), { [weak self] in
+                        self?.confirmMakeDefault(key: key, name: entry.name)
+                    }),
+                    (L("Delete"), { [weak self] in
+                        self?.confirmDelete(key: key, name: entry.name)
+                    }),
+                ]))
         }
 
         content.addArrangedSubview(makeSpacer())
@@ -102,7 +106,7 @@ final class LayoutList: NSWindowController {
                 subtitle: "",
                 detail: summarize(snapshot),
                 note: "",
-                action: (L("Restore"), { [weak self] in self?.confirmRestore(snapshot) })))
+                actions: [(L("Restore"), { [weak self] in self?.confirmRestore(snapshot) })]))
         }
     }
 
@@ -120,6 +124,18 @@ final class LayoutList: NSWindowController {
     }
 
     // MARK: - Actions
+
+    private func confirmMakeDefault(key: String, name: String) {
+        let alert = NSAlert()
+        alert.messageText = L("Use the layout of \u{201C}%@\u{201D} as the default?", name.isEmpty ? key : name)
+        alert.informativeText = L(
+            "Displays without a layout of their own start from the default. "
+            + "The current default is kept in the edit history.")
+        alert.addButton(withTitle: L("Make Default"))
+        alert.addButton(withTitle: L("Cancel"))
+        guard alert.runModal() == .alertFirstButtonReturn else { return }
+        apply(store.makeDefault(key: key))
+    }
 
     private func confirmDelete(key: String, name: String) {
         let alert = NSAlert()
@@ -178,7 +194,7 @@ final class LayoutList: NSWindowController {
 
     /// The row naming what each column holds
     private func makeColumnTitles(_ titles: String...) -> NSView {
-        let widths: [CGFloat] = [200, 60, 190, 150]
+        let widths: [CGFloat] = [200, 110, 190, 150]
         var views: [NSView] = []
         for (index, title) in titles.enumerated() {
             let label = NSTextField(labelWithString: title)
@@ -203,7 +219,7 @@ final class LayoutList: NSWindowController {
 
     private func makeRow(
         title: String, subtitle: String, detail: String, note: String,
-        action: (title: String, handler: () -> Void)?
+        actions: [(title: String, handler: () -> Void)] = []
     ) -> NSView {
         let titleLabel = NSTextField(labelWithString: title)
         titleLabel.font = .systemFont(ofSize: 13, weight: .medium)
@@ -213,7 +229,7 @@ final class LayoutList: NSWindowController {
         let subtitleLabel = NSTextField(labelWithString: subtitle)
         subtitleLabel.font = .systemFont(ofSize: 11)
         subtitleLabel.textColor = subtitle == L("Connected") ? .systemGreen : .secondaryLabelColor
-        subtitleLabel.widthAnchor.constraint(equalToConstant: 60).isActive = true
+        subtitleLabel.widthAnchor.constraint(equalToConstant: 110).isActive = true
 
         let detailLabel = NSTextField(labelWithString: detail)
         detailLabel.font = .systemFont(ofSize: 12)
@@ -228,7 +244,7 @@ final class LayoutList: NSWindowController {
 
         // Fixed column widths line the buttons up without a spacer
         var views: [NSView] = [titleLabel, subtitleLabel, detailLabel, noteLabel]
-        if let action {
+        for action in actions {
             views.append(ActionButton(title: action.title, handler: action.handler))
         }
 

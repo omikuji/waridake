@@ -94,6 +94,10 @@ have windows sit flush against each other.
 contains, and when it was last used, so settings for a monitor you no longer own
 are easy to spot and delete.
 
+The first row is the **default**: what a display starts from before it has a
+layout of its own. **Make Default** on any row promotes that display's layout to
+it, which is the way to change the default without touching the JSON.
+
 Every save keeps the previous state in `~/.config/waridake/history/`, the last
 10 versions. Restoring one from the list is possible at any time, and the state
 from before the restore is archived too, so it can be undone.
@@ -182,6 +186,10 @@ listed at the top of this file. English is the canonical version; run
 
 ## Troubleshooting
 
+- **No icon in the menu bar** — a full menu bar drops whatever no longer fits,
+  which happens easily on a notched Mac. Open Waridake again (Spotlight, Finder,
+  the Dock) and the same menu appears at the pointer. To get the icon back,
+  make room by quitting another menu bar app, or ⌘-drag the icons to reorder them
 - **No zones appear** — check the Accessibility permission; the menu shows a ⚠️
   item while it is missing
 - **It stopped working after a rebuild** — see "A note on rebuilding" above

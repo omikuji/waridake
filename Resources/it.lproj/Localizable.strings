@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ ha un valore di tipo errato (scrivi un numero)";
 "%@ has no value" = "%@ non ha valore";
 "the file" = "il file";
+"Make Default" = "Predefinito";
+"Use the layout of “%@” as the default?" = "Usare il layout di «%@» come predefinito?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Gli schermi senza un layout proprio partono dal predefinito. Quello attuale resta nella cronologia.";

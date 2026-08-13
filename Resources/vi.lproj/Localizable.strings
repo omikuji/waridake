@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ có kiểu giá trị sai (hãy ghi một số)";
 "%@ has no value" = "%@ không có giá trị";
 "the file" = "toàn bộ tệp";
+"Make Default" = "Đặt làm mặc định";
+"Use the layout of “%@” as the default?" = "Dùng bố cục của “%@” làm mặc định?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Màn hình chưa có bố cục riêng sẽ bắt đầu từ mặc định. Mặc định hiện tại vẫn nằm trong lịch sử.";

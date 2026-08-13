@@ -112,6 +112,13 @@ struct LayoutSet {
         return copy
     }
 
+    /// Replaces the layout that displays without an entry of their own use.
+    func settingBase(_ layout: Layout) -> LayoutSet {
+        var copy = self
+        copy.base = layout
+        return copy
+    }
+
     func removing(_ key: String) -> LayoutSet {
         var copy = self
         copy.displays.removeValue(forKey: key)
@@ -348,6 +355,12 @@ final class LayoutStore {
         formatter.dateFormat = "yyyyMMdd-HHmmss-SSS"
         return formatter
     }()
+
+    /// Promotes a display's layout to the default that unlisted displays use
+    func makeDefault(key: String) -> String? {
+        guard let entry = set.displays[key] else { return nil }
+        return save(text: set.settingBase(entry.layout).jsonText())
+    }
 
     /// Removes the settings of a display that is no longer used
     func removeDisplay(key: String) -> String? {

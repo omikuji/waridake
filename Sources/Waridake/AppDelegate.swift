@@ -29,6 +29,20 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         if !trusted { startWatchingAXTrust() }
     }
 
+    /// A full menu bar simply drops the icons that no longer fit, and on a
+    /// notched Mac that happens easily. Opening the app again then brings the
+    /// same menu up at the pointer, so nothing is ever out of reach.
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        showMenuAtPointer()
+        return true
+    }
+
+    private func showMenuAtPointer() {
+        guard let menu = statusItem.menu else { return }
+        NSApp.activate(ignoringOtherApps: true)
+        menu.popUp(positioning: nil, at: NSEvent.mouseLocation, in: nil)
+    }
+
     /// Once permission arrives, re-register the monitors and drop the warning.
     /// Checking only at launch would leave the app claiming to be untrusted
     /// long after the user granted access.

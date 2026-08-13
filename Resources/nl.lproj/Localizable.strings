@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ heeft een verkeerd soort waarde (schrijf een getal)";
 "%@ has no value" = "%@ heeft geen waarde";
 "the file" = "het bestand";
+"Make Default" = "Standaard maken";
+"Use the layout of “%@” as the default?" = "De lay-out van ‘%@’ als standaard gebruiken?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Schermen zonder eigen lay-out beginnen bij de standaard. De huidige standaard blijft in de geschiedenis.";

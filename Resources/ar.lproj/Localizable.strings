@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ يحمل نوع قيمة غير صحيح (اكتب رقمًا)";
 "%@ has no value" = "%@ بلا قيمة";
 "the file" = "الملف كله";
+"Make Default" = "اجعله الافتراضي";
+"Use the layout of “%@” as the default?" = "أتريد جعل تخطيط «%@» هو الافتراضي؟";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "الشاشات التي لا تخطيط خاص لها تبدأ من الافتراضي. ويبقى الافتراضي الحالي في سجل التحرير.";

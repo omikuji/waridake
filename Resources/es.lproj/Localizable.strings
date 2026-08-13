@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ tiene un valor de tipo incorrecto (escribe un número)";
 "%@ has no value" = "%@ no tiene valor";
 "the file" = "el archivo";
+"Make Default" = "Por omisión";
+"Use the layout of “%@” as the default?" = "¿Usar la disposición de «%@» por omisión?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Las pantallas sin disposición propia parten de la de omisión. La actual queda en el historial.";

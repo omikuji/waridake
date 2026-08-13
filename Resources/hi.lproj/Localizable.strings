@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ में ग़लत तरह का मान है (संख्या लिखें)";
 "%@ has no value" = "%@ का कोई मान नहीं है";
 "the file" = "पूरी फ़ाइल";
+"Make Default" = "डिफ़ॉल्ट बनाएँ";
+"Use the layout of “%@” as the default?" = "क्या “%@” का लेआउट डिफ़ॉल्ट बनाएँ?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "जिन डिस्प्ले का अपना लेआउट नहीं, वे डिफ़ॉल्ट से शुरू होते हैं। मौजूदा डिफ़ॉल्ट संपादन इतिहास में रहता है।";

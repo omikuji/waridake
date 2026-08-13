@@ -95,3 +95,6 @@
 "%@ has the wrong kind of value (write a number)" = "%@ má hodnotu nesprávného typu (napište číslo)";
 "%@ has no value" = "%@ nemá hodnotu";
 "the file" = "celý soubor";
+"Make Default" = "Nastavit výchozí";
+"Use the layout of “%@” as the default?" = "Použít rozvržení displeje „%@“ jako výchozí?";
+"Displays without a layout of their own start from the default. The current default is kept in the edit history." = "Displeje bez vlastního rozvržení vycházejí z výchozího. Dosavadní výchozí zůstane v historii.";
